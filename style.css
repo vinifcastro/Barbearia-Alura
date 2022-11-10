@@ -1,4 +1,39 @@
-body.Homepage > .principal > .centeralling {
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.Homepage > .principal > .centeralling {
     text-align: center;
 }
 
@@ -13,6 +48,12 @@ body.Homepage > .principal > .centeralling {
 .principal {
     background-color: #CCCCCC;
     padding: 30px;
+}
+
+.principal h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 p#missao > em {
@@ -33,15 +74,81 @@ p#missao > em {
 
 .beneficios > #titulobeneficios {
     text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    font-weight: bold;
 }
 
 .beneficios ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
+    margin-left: 20px;
 }
 
 .imagem-beneficios {
     width: 50%;
     float: right;
+}
+
+.itensprod {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.itensprod li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.itensprod li:hover {
+    border-color: #C78C19;
+}
+
+.itensprod li:hover h2 {
+    font-size: 34px;
+}
+
+.itensprod li:active {
+    border-color: #088C19;
+}
+
+.itensprod h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.produtosdesc {
+    font-size: 18px;
+}
+
+.preçosprodutos {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(/img/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.Homepage {
+    display: inline-block;
+    width: 100%;
 }
