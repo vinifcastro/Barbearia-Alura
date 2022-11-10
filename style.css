@@ -20,7 +20,7 @@ nav li {
     margin: 0 0 0 15px;
 }
 
-nav a {
+.Navegação {
     text-transform: uppercase;
     color: black;
     font-weight: bolder;
@@ -28,7 +28,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover{
+.Navegação:hover{
     color: #C78C19;
     text-decoration: underline;
 }
