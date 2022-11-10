@@ -56,6 +56,10 @@ nav a:hover{
     margin-bottom: 20px;
 }
 
+.principal p {
+    margin-bottom: 20px;
+}
+
 p#missao > em {
     color: #FF0000;
 }
