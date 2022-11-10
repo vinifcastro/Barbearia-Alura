@@ -156,3 +156,62 @@ footer {
     display: inline-block;
     width: 100%;
 }
+
+.Contatos {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.Contatos form {
+    margin: 40px 0;
+}
+
+.Contatos form label, .Contatos form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviarform {
+    background: orange;
+    width: 40%;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background, 1s transform;
+    cursor: pointer;
+}
+
+.enviarform:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.Contatos table {
+    margin: 40px 0;
+}
+
+.Contatos table thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+.Contatos table td, .Contatos table th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
